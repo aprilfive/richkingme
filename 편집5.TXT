@@ -1,0 +1,772 @@
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ npm install -g express express-generator
+출처: https://sd23w.tistory.com/380 [그러냐]
+
+출처: https://sd23w.tistory.com/380 [그러냐]
+
+ npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+
+
+C:\Users\april\AppData\Roaming\npm\express -> C:\Users\april\AppData\Roaming\npm\node_modules\express-generator\bin\express-cli.js
++ express-generator@4.16.1
++ express@4.17.1
+added 60 packages from 42 contributors in 5.715s
+
+april@DESKTOP-298JKEM MINGW64 ~
+$
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ 출처: https://sd23w.tistory.com/380 [그러냐]
+bash: 출처:: command not found
+
+april@DESKTOP-298JKEM MINGW64 ~
+$
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ 출처: https://sd23w.tistory.com/380 [그러냐]
+bash: 출처:: command not found
+
+april@DESKTOP-298JKEM MINGW64 ~
+$
+
+april@DESKTOP-298JKEM MINGW64 ~
+$
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ npm install -g express express-generator
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+C:\Users\april\AppData\Roaming\npm\express -> C:\Users\april\AppData\Roaming\npm\node_modules\express-generator\bin\express-cli.js
++ express-generator@4.16.1
++ express@4.17.1
+updated 2 packages in 2.157s
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ express -h
+
+  Usage: express [options] [dir]
+
+  Options:
+
+        --version        output the version number
+    -e, --ejs            add ejs engine support
+        --pug            add pug engine support
+        --hbs            add handlebars engine support
+    -H, --hogan          add hogan.js engine support
+    -v, --view <engine>  add view <engine> support (dust|ejs|hbs|hjs|jade|pug|twig|vash) (defaults to jade)
+        --no-view        use static html instead of view engine
+    -c, --css <engine>   add stylesheet <engine> support (less|stylus|compass|sass) (defaults to plain css)
+        --git            add .gitignore
+    -f, --force          force on non-empty directory
+    -h, --help           output usage information
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ express -h
+
+  Usage: express [options] [dir]
+
+  Options:
+
+        --version        output the version number
+    -e, --ejs            add ejs engine support
+        --pug            add pug engine support
+        --hbs            add handlebars engine support
+    -H, --hogan          add hogan.js engine support
+    -v, --view <engine>  add view <engine> support (dust|ejs|hbs|hjs|jade|pug|twig|vash) (defaults to jade)
+        --no-view        use static html instead of view engine
+    -c, --css <engine>   add stylesheet <engine> support (less|stylus|compass|sass) (defaults to plain css)
+        --git            add .gitignore
+    -f, --force          force on non-empty directory
+    -h, --help           output usage information
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ express -h
+
+  Usage: express [options] [dir]
+
+  Options:
+
+        --version        output the version number
+    -e, --ejs            add ejs engine support
+        --pug            add pug engine support
+        --hbs            add handlebars engine support
+    -H, --hogan          add hogan.js engine support
+    -v, --view <engine>  add view <engine> support (dust|ejs|hbs|hjs|jade|pug|twig|vash) (defaults to jade)
+        --no-view        use static html instead of view engine
+    -c, --css <engine>   add stylesheet <engine> support (less|stylus|compass|sass) (defaults to plain css)
+        --git            add .gitignore
+    -f, --force          force on non-empty directory
+    -h, --help           output usage information
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ ls
+'3D Objects'/            ntuser.dat.LOG1
+ AppData/                ntuser.dat.LOG2
+'Application Data'@      NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ Contacts/               NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ Cookies@                NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ Desktop/                ntuser.ini
+ Documents/              OneDrive/
+ Downloads/              Pictures/
+ Favorites/              PrintHood@
+ iCloudDrive/            Recent@
+ Links/                 'Saved Games'/
+'Local Settings'@        Searches/
+ MicrosoftEdgeBackups/   SendTo@
+ Music/                  Templates@
+'My Documents'@          Videos/
+ NetHood@               '시작 메뉴'@
+ NTUSER.DAT
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ cd Desktop
+
+april@DESKTOP-298JKEM MINGW64 ~/Desktop
+$ ls
+desktop.ini
+
+april@DESKTOP-298JKEM MINGW64 ~/Desktop
+$ cd..
+bash: cd..: command not found
+
+april@DESKTOP-298JKEM MINGW64 ~/Desktop
+$ ls
+desktop.ini
+
+april@DESKTOP-298JKEM MINGW64 ~/Desktop
+$ cd.
+bash: cd.: command not found
+
+april@DESKTOP-298JKEM MINGW64 ~/Desktop
+$ ls..
+bash: ls..: command not found
+
+april@DESKTOP-298JKEM MINGW64 ~/Desktop
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ ls
+'3D Objects'/            ntuser.dat.LOG1
+ AppData/                ntuser.dat.LOG2
+'Application Data'@      NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ Contacts/               NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ Cookies@                NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ Desktop/                ntuser.ini
+ Documents/              OneDrive/
+ Downloads/              Pictures/
+ Favorites/              PrintHood@
+ iCloudDrive/            Recent@
+ Links/                 'Saved Games'/
+'Local Settings'@        Searches/
+ MicrosoftEdgeBackups/   SendTo@
+ Music/                  Templates@
+'My Documents'@          Videos/
+ NetHood@               '시작 메뉴'@
+ NTUSER.DAT
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ cd Contacts
+
+april@DESKTOP-298JKEM MINGW64 ~/Contacts
+$ ls
+desktop.ini
+
+april@DESKTOP-298JKEM MINGW64 ~/Contacts
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ ls
+'3D Objects'/            ntuser.dat.LOG1
+ AppData/                ntuser.dat.LOG2
+'Application Data'@      NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ Contacts/               NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ Cookies@                NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ Desktop/                ntuser.ini
+ Documents/              OneDrive/
+ Downloads/              Pictures/
+ Favorites/              PrintHood@
+ iCloudDrive/            Recent@
+ Links/                 'Saved Games'/
+'Local Settings'@        Searches/
+ MicrosoftEdgeBackups/   SendTo@
+ Music/                  Templates@
+'My Documents'@          Videos/
+ NetHood@               '시작 메뉴'@
+ NTUSER.DAT
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ cd OneDrive
+
+april@DESKTOP-298JKEM MINGW64 ~/OneDrive
+$ ls
+ desktop.ini   Uploads/   workspace/  '개인 중요 보관소.lnk'*   문서/  '바탕 화면'/   사진/  '첨부 파일'/
+
+april@DESKTOP-298JKEM MINGW64 ~/OneDrive
+$ cd workspace
+
+april@DESKTOP-298JKEM MINGW64 ~/OneDrive/workspace
+$ ls
+ProntEndWeb/  spring-batch-in-action-master/  spring-batch-master/
+
+april@DESKTOP-298JKEM MINGW64 ~/OneDrive/workspace
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 ~/OneDrive
+$ ls
+ desktop.ini   Uploads/   workspace/  '개인 중요 보관소.lnk'*   문서/  '바탕 화면'/   사진/  '첨부 파일'/
+
+april@DESKTOP-298JKEM MINGW64 ~/OneDrive
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ ls
+'3D Objects'/            ntuser.dat.LOG1
+ AppData/                ntuser.dat.LOG2
+'Application Data'@      NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ Contacts/               NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ Cookies@                NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ Desktop/                ntuser.ini
+ Documents/              OneDrive/
+ Downloads/              Pictures/
+ Favorites/              PrintHood@
+ iCloudDrive/            Recent@
+ Links/                 'Saved Games'/
+'Local Settings'@        Searches/
+ MicrosoftEdgeBackups/   SendTo@
+ Music/                  Templates@
+'My Documents'@          Videos/
+ NetHood@               '시작 메뉴'@
+ NTUSER.DAT
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 /c/Users
+$ ls
+'All Users'@   april/   Default/  'Default User'@   defaultuser0/   desktop.ini   Public/
+
+april@DESKTOP-298JKEM MINGW64 /c/Users
+$ cd april
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ ls
+'3D Objects'/            ntuser.dat.LOG1
+ AppData/                ntuser.dat.LOG2
+'Application Data'@      NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ Contacts/               NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ Cookies@                NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ Desktop/                ntuser.ini
+ Documents/              OneDrive/
+ Downloads/              Pictures/
+ Favorites/              PrintHood@
+ iCloudDrive/            Recent@
+ Links/                 'Saved Games'/
+'Local Settings'@        Searches/
+ MicrosoftEdgeBackups/   SendTo@
+ Music/                  Templates@
+'My Documents'@          Videos/
+ NetHood@               '시작 메뉴'@
+ NTUSER.DAT
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ ls ..
+'All Users'@   april/   Default/  'Default User'@   defaultuser0/   desktop.ini   Public/
+
+april@DESKTOP-298JKEM MINGW64 ~
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 /c/Users
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 /c
+$ dir
+$Recycle.Bin     CrossEX.sig                        lserver-softhound      Program\ Files               ToToBrowser
+Android          Documents\ and\ Settings           Microsoft\ VS\ Code    Program\ Files\ (x86)        Users
+avast!\ sandbox  Git                                nodejs                 ProgramData                  WebStorm
+Boot             hiberfil.sys                       node-v12.13.0-win-x64  Recovery                     Windows
+bootmgr          Java                               OneDriveTemp           swapfile.sys                 Wise
+BOOTNXT          kr.co.raon.touchenex.firefox.json  pagefile.sys           System\ Volume\ Information  workspace
+Config.Msi       kr.co.raon.touchenex.json          PerfLogs               Temp
+
+april@DESKTOP-298JKEM MINGW64 /c
+$ cd worksapce
+bash: cd: worksapce: No such file or directory
+
+april@DESKTOP-298JKEM MINGW64 /c
+$ cd workspace
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace
+$ pwd
+/c/workspace
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace
+$ ls
+merp-dev-was/  react-master/     richkingme-test/  spring-batch-in-action-master/     spring-batch-master/
+merp-dev-web/  react-master.zip  richkingme-web/   spring-batch-in-action-master.zip  spring-batch-master.zip
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace
+$ cd richkingme-web
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace/richkingme-web
+$ pwd
+/c/workspace/richkingme-web
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace/richkingme-web
+$ cd ...
+bash: cd: ...: No such file or directory
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace/richkingme-web
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace
+$ ls
+merp-dev-was/  react-master/     richkingme-test/  spring-batch-in-action-master/     spring-batch-master/
+merp-dev-web/  react-master.zip  richkingme-web/   spring-batch-in-action-master.zip  spring-batch-master.zip
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace
+$ $ express --view=hbs --css=sass <C:\workspace\richkingme-web>
+bash: syntax error near unexpected token `newline'
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace
+$ $ express --view=hbs --css=sass </C/workspace/richkingme-web>
+bash: syntax error near unexpected token `newline'
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace
+$ express --view=hbs --css=sass </C/workspace/richkingme-web>
+bash: syntax error near unexpected token `newline'
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace
+$ express --view=hbs --css=sass <C:\workspace\richkingme-web>
+bash: syntax error near unexpected token `newline'
+
+april@DESKTOP-298JKEM MINGW64 /c/workspace
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 /c
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 /
+$ ls
+bin/  dev/      dudtkd75.pub  git-bash.exe*  LICENSE.txt  mingw64/  ReleaseNotes.html  unins000.dat   unins000.msg
+cmd/  dudtkd75  etc/          git-cmd.exe*   magic.py     proc/     tmp/               unins000.exe*  usr/
+
+april@DESKTOP-298JKEM MINGW64 /
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 /
+$ ls
+bin/  dev/      dudtkd75.pub  git-bash.exe*  LICENSE.txt  mingw64/  ReleaseNotes.html  unins000.dat   unins000.msg
+cmd/  dudtkd75  etc/          git-cmd.exe*   magic.py     proc/     tmp/               unins000.exe*  usr/
+
+april@DESKTOP-298JKEM MINGW64 /
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 /
+$ ls
+bin/  dev/      dudtkd75.pub  git-bash.exe*  LICENSE.txt  mingw64/  ReleaseNotes.html  unins000.dat   unins000.msg
+cmd/  dudtkd75  etc/          git-cmd.exe*   magic.py     proc/     tmp/               unins000.exe*  usr/
+
+april@DESKTOP-298JKEM MINGW64 /
+$ cd c
+
+april@DESKTOP-298JKEM MINGW64 /c
+$ ls
+'$Recycle.Bin'/             Git/                                OneDriveTemp/                 Temp/
+ Android/                   hiberfil.sys                        pagefile.sys                  ToToBrowser/
+'avast! sandbox'/           Java/                               PerfLogs/                     Users/
+ Boot/                      kr.co.raon.touchenex.firefox.json  'Program Files'/               WebStorm/
+ bootmgr                    kr.co.raon.touchenex.json          'Program Files (x86)'/         Windows/
+ BOOTNXT                    lserver-softhound/                  ProgramData/                  Wise/
+ Config.Msi/               'Microsoft VS Code'/                 Recovery/                     workspace/
+ CrossEX.sig                nodejs/                             swapfile.sys
+'Documents and Settings'@   node-v12.13.0-win-x64/             'System Volume Information'/
+
+april@DESKTOP-298JKEM MINGW64 /c
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 /
+$ cd bin
+
+april@DESKTOP-298JKEM MINGW64 /bin
+$ ls
+'[.exe'*                      gobject-query.exe*              msys-heimbase-1.dll*          runcon.exe*
+ addgnupghome*                gpg.exe*                        msys-heimntlm-0.dll*          rview.exe*
+ applygnupgdefaults*          gpg-agent.exe*                  msys-history8.dll*            rvim.exe*
+ arch.exe*                    gpgconf.exe*                    msys-hogweed-5.dll*           sasldblistusers2.exe*
+ astextplain*                 gpg-connect-agent.exe*          msys-hx509-5.dll*             saslpasswd2.exe*
+ autopoint*                   gpg-error.exe*                  msys-iconv-2.dll*             scp.exe*
+ awk.exe*                     gpgparsemail.exe*               msys-idn2-0.dll*              sdiff.exe*
+ b2sum.exe*                   gpgscm.exe*                     msys-intl-8.dll*              sed.exe*
+ backup*                      gpgsm.exe*                      msys-kadm5clnt-7.dll*         seq.exe*
+ base32.exe*                  gpgtar.exe*                     msys-kadm5srv-8.dll*          setfacl.exe*
+ base64.exe*                  gpgv.exe*                       msys-kafs-0.dll*              setmetamode.exe*
+ basename.exe*                gpg-wks-server.exe*             msys-kdc-2.dll*               sexp-conv.exe*
+ basenc.exe*                  grep.exe*                       msys-krb5-26.dll*             sftp.exe*
+ bash.exe*                    groups.exe*                     msys-ksba-8.dll*              sh.exe*
+ bashbug*                     gsettings.exe*                  msys-lzma-5.dll*              sha1sum.exe*
+ bunzip2.exe*                 gunzip*                         msys-magic-1.dll*             sha224sum.exe*
+ bzcat.exe*                   gzexe*                          msys-menuw6.dll*              sha256sum.exe*
+ bzcmp*                       gzip.exe*                       msys-metalink-3.dll*          sha384sum.exe*
+ bzdiff*                      head.exe*                       msys-mpfr-6.dll*              sha512sum.exe*
+ bzegrep*                     hmac256.exe*                    msys-ncurses++w6.dll*         shred.exe*
+ bzfgrep*                     hostid.exe*                     msys-ncursesw6.dll*           shuf.exe*
+ bzgrep*                      hostname.exe*                   msys-nettle-7.dll*            sleep.exe*
+ bzip2.exe*                   iconv.exe*                      msys-nghttp2-14.dll*          sort.exe*
+ bzip2recover.exe*            id.exe*                         msys-npth-0.dll*              split.exe*
+ bzless*                      infocmp.exe*                    msys-p11-kit-0.dll*           ssh.exe*
+ bzmore*                      infotocap.exe*                  msys-panelw6.dll*             ssh-add.exe*
+ c_rehash*                    install.exe*                    msys-pcre-1.dll*              ssh-agent.exe*
+ captoinfo.exe*               join.exe*                       msys-pcre2-8-0.dll*           ssh-copy-id*
+ cat.exe*                     kbxutil.exe*                    msys-perl5_26.dll*            sshd.exe*
+ chattr.exe*                  kill.exe*                       msys-psl-5.dll*               ssh-keygen.exe*
+ chcon.exe*                   ldd.exe*                        msys-readline8.dll*           ssh-keyscan.exe*
+ chgrp.exe*                   ldh.exe*                        msys-roken-18.dll*            ssh-pageant.exe*
+ chmod.exe*                   less.exe*                       msys-sasl2-3.dll*             ssp.exe*
+ chown.exe*                   lessecho.exe*                   msys-serf-1-0.dll*            start*
+ chroot.exe*                  lesskey.exe*                    msys-sl-0.dll*                stat.exe*
+ cksum.exe*                   link.exe*                       msys-smartcols-1.dll*         strace.exe*
+ clear.exe*                   ln.exe*                         msys-sqlite3-0.dll*           stty.exe*
+ cmp.exe*                     locale.exe*                     msys-ssh2-1.dll*              sum.exe*
+ column.exe*                  locate.exe*                     msys-ssl-1.1.dll*             sync.exe*
+ comm.exe*                    logname.exe*                    msys-svn_client-1-0.dll*      tabs.exe*
+ core_perl/                   ls.exe*                         msys-svn_delta-1-0.dll*       tac.exe*
+ cp.exe*                      lsattr.exe*                     msys-svn_diff-1-0.dll*        tail.exe*
+ csplit.exe*                  mac2unix.exe*                   msys-svn_fs_fs-1-0.dll*       tar.exe*
+ cut.exe*                     md5sum.exe*                     msys-svn_fs_util-1-0.dll*     tee.exe*
+ cygcheck.exe*                minidumper.exe*                 msys-svn_fs_x-1-0.dll*        test.exe*
+ cygpath.exe*                 mintheme*                       msys-svn_fs-1-0.dll*          tic.exe*
+ cygwin-console-helper.exe*   mintty.exe*                     msys-svn_ra_local-1-0.dll*    tig.exe*
+ d2u.exe*                     mkdir.exe*                      msys-svn_ra_serf-1-0.dll*     timeout.exe*
+ dash.exe*                    mkfifo.exe*                     msys-svn_ra_svn-1-0.dll*      toe.exe*
+ date.exe*                    mkgroup.exe*                    msys-svn_ra-1-0.dll*          touch.exe*
+ dd.exe*                      mknod.exe*                      msys-svn_repos-1-0.dll*       tput.exe*
+ df.exe*                      mkpasswd.exe*                   msys-svn_subr-1-0.dll*        tr.exe*
+ diff.exe*                    mktemp.exe*                     msys-svn_swig_perl-1-0.dll*   true.exe*
+ diff3.exe*                   mount.exe*                      msys-svn_swig_py-1-0.dll*     truncate.exe*
+ dir.exe*                     mpicalc.exe*                    msys-svn_swig_ruby-1-0.dll*   trust.exe*
+ dircolors.exe*               msgattrib.exe*                  msys-svn_wc-1-0.dll*          tset.exe*
+ dirmngr.exe*                 msgcat.exe*                     msys-tasn1-6.dll*             tsort.exe*
+ dirmngr-client.exe*          msgcmp.exe*                     msys-ticw6.dll*               tty.exe*
+ dirname.exe*                 msgcomm.exe*                    msys-unistring-2.dll*         tzset.exe*
+ docx2txt*                    msgconv.exe*                    msys-uuid-1.dll*              u2d.exe*
+ docx2txt.pl*                 msgen.exe*                      msys-wind-0.dll*              umount.exe*
+ dos2unix.exe*                msgexec.exe*                    msys-xml2-2.dll*              uname.exe*
+ du.exe*                      msgfilter.exe*                  msys-xslt-1.dll*              uncompress*
+ dumpsexp.exe*                msgfmt.exe*                     msys-z.dll*                   unexpand.exe*
+ echo.exe*                    msggrep.exe*                    mv.exe*                       uniq.exe*
+ egrep*                       msginit.exe*                    nano.exe*                     unix2dos.exe*
+ env.exe*                     msgmerge.exe*                   nettle-hash.exe*              unix2mac.exe*
+ envsubst.exe*                msgunfmt.exe*                   nettle-lfib-stream.exe*       unlink.exe*
+ ex.exe*                      msguniq.exe*                    nettle-pbkdf2.exe*            unzip.exe*
+ expand.exe*                  msys-2.0.dll*                   ngettext.exe*                 unzipsfx.exe*
+ expr.exe*                    msys-apr-1-0.dll*               nice.exe*                     update-ca-trust*
+ factor.exe*                  msys-aprutil-1-0.dll*           nl.exe*                       updatedb*
+ false.exe*                   msys-asn1-8.dll*                nohup.exe*                    users.exe*
+ fgrep*                       msys-asprintf-0.dll*            notepad*                      vdir.exe*
+ fido2-assert.exe*            msys-assuan-0.dll*              nproc.exe*                    vendor_perl/
+ fido2-cred.exe*              msys-atomic-1.dll*              numfmt.exe*                   vi*
+ fido2-token.exe*             msys-blkid-1.dll*               od.exe*                       view.exe*
+ file.exe*                    msys-bz2-1.dll*                 openssl.exe*                  vim.exe*
+ find.exe*                    msys-cbor-0.dll*                p11-kit.exe*                  vimdiff.exe*
+ findssl.sh*                  msys-charset-1.dll*             passwd.exe*                   vimtutor*
+ fmt.exe*                     msys-com_err-1.dll*             paste.exe*                    watchgnupg.exe*
+ fold.exe*                    msys-crypt-0.dll*               patch.exe*                    wc.exe*
+ funzip.exe*                  msys-crypto-1.1.dll*            pathchk.exe*                  which.exe*
+ gapplication.exe*            msys-curl-4.dll*                perl.exe*                     who.exe*
+ gawk.exe*                    msys-edit-0.dll*                perl5.26.2.exe*               whoami.exe*
+ gawk-5.0.0.exe*              msys-expat-1.dll*               pinentry.exe*                 winpty.dll*
+ gdbus.exe*                   msys-exslt-0.dll*               pinentry-w32.exe*             winpty.exe*
+ gencat.exe*                  msys-fdisk-1.dll*               pinky.exe*                    winpty-agent.exe*
+ getconf.exe*                 msys-ffi-7.dll*                 pkcs1-conv.exe*               winpty-debugserver.exe*
+ getemojis*                   msys-fido2-1.dll*               pldd.exe*                     wordpad*
+ getfacl.exe*                 msys-formw6.dll*                pluginviewer.exe*             xargs.exe*
+ getopt.exe*                  msys-gcc_s-seh-1.dll*           pr.exe*                       xgettext.exe*
+ gettext.exe*                 msys-gcrypt-20.dll*             printenv.exe*                 xxd.exe*
+ gettext.sh*                  msys-gettextlib-0-19-8-1.dll*   printf.exe*                   yat2m.exe*
+ gettextize*                  msys-gettextpo-0.dll*           ps.exe*                       yes.exe*
+ gio-querymodules.exe*        msys-gettextsrc-0-19-8-1.dll*   psl.exe*                      zcat*
+ git-flow*                    msys-gio-2.0-0.dll*             psl-make-dafsa*               zcmp*
+ git-flow-bugfix              msys-glib-2.0-0.dll*            ptx.exe*                      zdiff*
+ gitflow-common               msys-gmodule-2.0-0.dll*         pwd.exe*                      zegrep*
+ git-flow-config              msys-gmp-10.dll*                readlink.exe*                 zfgrep*
+ git-flow-feature             msys-gmpxx-4.dll*               realpath.exe*                 zforce*
+ git-flow-hotfix              msys-gnutls-30.dll*             rebase.exe*                   zgrep*
+ git-flow-init                msys-gnutlsxx-28.dll*           rebaseall*                    zipgrep*
+ git-flow-log                 msys-gobject-2.0-0.dll*         recode-sr-latin.exe*          zipinfo.exe*
+ git-flow-release             msys-gomp-1.dll*                regtool.exe*                  zless*
+ gitflow-shFlags              msys-gpg-error-0.dll*           reset.exe*                    zmore*
+ git-flow-support             msys-gssapi-3.dll*              restore*                      znew*
+ git-flow-version             msys-gthread-2.0-0.dll*         rm.exe*
+ gkill.exe*                   msys-hcrypto-4.dll*             rmdir.exe*
+ glib-compile-schemas.exe*    msys-hdb-9.dll*                 rnano.exe*
+
+april@DESKTOP-298JKEM MINGW64 /bin
+$ cd ..
+
+april@DESKTOP-298JKEM MINGW64 /
+$ cd c
+
+april@DESKTOP-298JKEM MINGW64 /c
+$ ls
+'$Recycle.Bin'/             Git/                                OneDriveTemp/                 Temp/
+ Android/                   hiberfil.sys                        pagefile.sys                  ToToBrowser/
+'avast! sandbox'/           Java/                               PerfLogs/                     Users/
+ Boot/                      kr.co.raon.touchenex.firefox.json  'Program Files'/               WebStorm/
+ bootmgr                    kr.co.raon.touchenex.json          'Program Files (x86)'/         Windows/
+ BOOTNXT                    lserver-softhound/                  ProgramData/                  Wise/
+ Config.Msi/               'Microsoft VS Code'/                 Recovery/                     workspace/
+ CrossEX.sig                nodejs/                             swapfile.sys
+'Documents and Settings'@   node-v12.13.0-win-x64/             'System Volume Information'/
+
+april@DESKTOP-298JKEM MINGW64 /c
+$ express --view=hbs --css=sass <C:\workspace\richkingme-web>
+bash: syntax error near unexpected token `newline'
+
+april@DESKTOP-298JKEM MINGW64 /c
+$ express --view=hbs --css=sass c:\workspace\richkingme-web
+
+   create : c:workspacerichkingme-web\
+   create : c:workspacerichkingme-web\public\
+   create : c:workspacerichkingme-web\public\javascripts\
+   create : c:workspacerichkingme-web\public\images\
+   create : c:workspacerichkingme-web\public\stylesheets\
+   create : c:workspacerichkingme-web\public\stylesheets\style.sass
+   create : c:workspacerichkingme-web\routes\
+   create : c:workspacerichkingme-web\routes\index.js
+   create : c:workspacerichkingme-web\routes\users.js
+   create : c:workspacerichkingme-web\views\
+   create : c:workspacerichkingme-web\views\error.hbs
+   create : c:workspacerichkingme-web\views\index.hbs
+   create : c:workspacerichkingme-web\views\layout.hbs
+   create : c:workspacerichkingme-web\app.js
+   create : c:workspacerichkingme-web\package.json
+   create : c:workspacerichkingme-web\bin\
+   create : c:workspacerichkingme-web\bin\www
+
+   change directory:
+     $ cd c:workspacerichkingme-web
+
+   install dependencies:
+     $ npm install
+
+   run the app:
+     $ DEBUG=workspacerichkingme-web:* npm start
+
+
+april@DESKTOP-298JKEM MINGW64 /c
+$ cd c:\workspace\richkingme-web
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ npm install
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+> node-sass@4.14.0 install C:\workspacerichkingme-web\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.14.0/win32-x64-72_binding.node
+Download complete
+Binary saved to C:\workspacerichkingme-web\node_modules\node-sass\vendor\win32-x64-72\binding.node
+Caching binary to C:\Users\april\AppData\Roaming\npm-cache\node-sass\4.14.0\win32-x64-72_binding.node
+
+> node-sass@4.14.0 postinstall C:\workspacerichkingme-web\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at C:\workspacerichkingme-web\node_modules\node-sass\vendor\win32-x64-72\binding.node
+Testing binary
+Binary is fine
+npm notice created a lockfile as package-lock.json. You should commit this file.
+added 232 packages from 170 contributors and audited 682 packages in 21.119s
+found 5 vulnerabilities (1 low, 1 moderate, 3 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ npm start
+
+> workspacerichkingme-web@0.0.0 start C:\workspacerichkingme-web
+> node ./bin/www
+
+GET / 200 167.824 ms - 204
+GET /stylesheets/style.css 200 36.997 ms - -
+GET /favicon.ico 404 8.621 ms - 1117
+
+
+^Cnpm ERR! code ELIFECYCLE
+npm ERR! errno 3221225786
+npm ERR! workspacerichkingme-web@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 3221225786
+npm ERR!
+npm ERR! Failed at the workspacerichkingme-web@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\april\AppData\Roaming\npm-cache\_logs\2020-04-28T11_48_11_255Z-debug.log
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ npm install
+audited 682 packages in 1.908s
+found 5 vulnerabilities (1 low, 1 moderate, 3 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ node start
+internal/modules/cjs/loader.js:797
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\workspacerichkingme-web\start'
+?[90m    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:794:15)?[39m
+?[90m    at Function.Module._load (internal/modules/cjs/loader.js:687:27)?[39m
+?[90m    at Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)?[39m
+?[90m    at internal/main/run_main_module.js:17:11?[39m {
+  code: ?[32m'MODULE_NOT_FOUND'?[39m,
+  requireStack: []
+}
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ npm start
+
+> workspacerichkingme-web@0.0.0 start C:\workspacerichkingme-web
+> node ./web
+
+internal/modules/cjs/loader.js:797
+    throw err;
+    ^
+
+Error: Cannot find module '../app'
+Require stack:
+- C:\workspacerichkingme-web\web
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:794:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Module.require (internal/modules/cjs/loader.js:849:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\workspacerichkingme-web\web:7:11)
+    at Module._compile (internal/modules/cjs/loader.js:956:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)
+    at Module.load (internal/modules/cjs/loader.js:812:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:724:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1025:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'C:\\workspacerichkingme-web\\web' ]
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! workspacerichkingme-web@0.0.0 start: `node ./web`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the workspacerichkingme-web@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\april\AppData\Roaming\npm-cache\_logs\2020-04-28T11_49_39_244Z-debug.log
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ npm install
+audited 682 packages in 3.299s
+found 5 vulnerabilities (1 low, 1 moderate, 3 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ npm start
+
+> workspacerichkingme-web@0.0.0 start C:\workspacerichkingme-web
+> node ./web.js
+
+internal/modules/cjs/loader.js:797
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\workspacerichkingme-web\web.js'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:794:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)
+    at internal/main/run_main_module.js:17:11 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! workspacerichkingme-web@0.0.0 start: `node ./web.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the workspacerichkingme-web@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\april\AppData\Roaming\npm-cache\_logs\2020-04-28T11_52_28_124Z-debug.log
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ ls
+app.js  node_modules/  package.json  package-lock.json  public/  routes/  views/  web*
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ npm install
+audited 682 packages in 2.031s
+found 5 vulnerabilities (1 low, 1 moderate, 3 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ npm start
+
+> workspacerichkingme-web@0.0.0 start C:\workspacerichkingme-web
+> node ./web
+
+
+GET / 304 153.210 ms - -
+GET /stylesheets/style.css 200 17.516 ms - -
+GET / 304 6.948 ms - -
+GET /stylesheets/style.css 200 16.285 ms - 143
+GET / 304 4.702 ms - -
+GET /stylesheets/style.css 304 2.929 ms - -
+GET / 304 6.106 ms - -
+GET /stylesheets/style.css 304 2.193 ms - -
+GET / 304 4.349 ms - -
+GET /stylesheets/style.css 304 2.161 ms - -
+GET / 304 4.666 ms - -
+GET /stylesheets/style.css 304 2.307 ms - -
+GET / 304 4.382 ms - -
+GET /stylesheets/style.css 304 2.054 ms - -
+
+
+^Cnpm ERR! code ELIFECYCLE
+npm ERR! errno 3221225786
+npm ERR! workspacerichkingme-web@0.0.0 start: `node ./web`
+npm ERR! Exit status 3221225786
+npm ERR!
+npm ERR! Failed at the workspacerichkingme-web@0.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\april\AppData\Roaming\npm-cache\_logs\2020-04-28T12_19_40_444Z-debug.log
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ npm install
+audited 682 packages in 1.931s
+found 5 vulnerabilities (1 low, 1 moderate, 3 high)
+  run `npm audit fix` to fix them, or `npm audit` for details	
+
+april@DESKTOP-298JKEM MINGW64 /c/workspacerichkingme-web
+$ npm start
+
+> workspacerichkingme-web@0.0.0 start C:\workspacerichkingme-web
+> node ./web
+
+GET / 200 147.553 ms - 213
+GET /stylesheets/style.css 200 18.953 ms - -

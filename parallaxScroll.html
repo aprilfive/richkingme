@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"">
+    
+    <title>ParallaxScroll</title>
+
+    <link type="text/css" href="css/parallax.css" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.parallax-scroll.min.js"></script>
+    <script>
+        $(function(){
+            $('.bg-holder').parallaxScroll({
+                friction:0.3
+            });
+            $('.icon img').hover(function() {
+                $(this).attr('src',$(this).attr('src'.replace('.png','_over.png')))
+            }, function(){
+                $(this).attr('src',$(this).attr('src'.replace('_over.png','.png')))
+            })
+        });
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="ms1" class="container bg-holder" data-width="1200" data-height="640">
+            <section class="content">
+                <h3>Bean O'clock</h3>
+                <p>더치커피와 원두커피 전문 쇼핑몰 빈어클락 입니다.
+                    <div class="icon"><img src=""></div>
+                </p>
+            </section>
+        </div>
+        <div id="ms2" class="container bg-holder" data-width="1200" data-height="640">
+            <section class="content">
+                <h3>Bean O'clock</h3>
+                <p> Second
+                    <div class="icon"><img src=""></div>
+                </p>
+            </section>
+        </div>
+        <div id="ms3" class="container bg-holder" data-width="1200" data-height="640">
+            <section class="content">
+                <h3>Bean O'clock</h3>
+                <p> Thirth
+                    <div class="icon"><img src=""></div>
+                </p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

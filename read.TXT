@@ -1,0 +1,31 @@
+>> cafe24
+id : aprilfive
+pass : !Adudtkd751
+
+>> 나의 서비스 관리
+1. richkingme	!Adudtkd75 || Adudtkd75
+2. aprilfive
+
+3. 앱 생성관리
+	3-1. 앱 리스트 관리. 실행, 중지, KEY할당.
+	
+
+
+* Nodejs & vscode(Visual Studio Code)
+
+* vscode connection method GIT
+
+	
+	
+	
+	1. git, nodejs 기본설치.
+	2. express-generator 설치
+	$ npm install -g express express-generator
+		npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+		C:\Users\april\AppData\Roaming\npm\express -> C:\Users\april\AppData\Roaming\npm\node_modules\express-generator\bin\express-cli.js
+		+ express-generator@4.16.1
+		+ express@4.17.1
+		updated 2 packages in 2.157s
+		
+		
+		richkingme.cafe24app.com	|| git richkingme@richkingme.cafe24app.com:richkingme_richkingme	|| 8001	

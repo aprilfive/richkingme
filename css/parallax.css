@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#ms1{
+    background-image: url("../img/yunu_01.jpg");
+}
+
+#ms2{
+    background-image: url("../img/yunu_02.jpg");
+}
+
+#ms3{
+    background-image: url("../img/yunu_03.jpg");
+}
+.bg-holder{
+    width: 100%;
+    height: 100%;
+}
+.container .content {
+    color:#fff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform:  translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.content h3{
+
+}
